@@ -22,7 +22,7 @@ spec:
         service-account:
           name: db2
           create: false
-          sccs: ["privileged"]
+          # sccs: ["privileged"]
 
         ibm-sfg-db2:
           name: db2
